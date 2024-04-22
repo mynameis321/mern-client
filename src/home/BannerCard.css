@@ -1,0 +1,122 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.banner .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1) {
+ 
+  background-image :url('src/assets/BannerBooks/harry.webp');
+  background-size: cover; 
+  background-position: center;
+}
+
+.swiper-slide:nth-child(1n) {
+ 
+  /* background-image :url('src/assets/BannerBooks/harry.webp'); */
+  background-image:white;
+  background-size: cover; 
+  background-position: center;
+}
+
+.banner .swiper-slide:nth-child(2n) {
+  background-image :url('src/assets/BannerBooks/img2.jpeg');
+background-size: cover; 
+  background-position: center;
+}
+
+.banner .swiper-slide:nth-child(3n) {
+  background-image :url('src/assets/BannerBooks/img3.jpg');
+  background-size: cover; 
+
+}
+
+.banner .swiper-slide:nth-child(4n) {
+  background-image :url('src/assets/BannerBooks/img4.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+
+.banner .swiper-slide:nth-child(5n) {
+  background-image :url('src/assets/BannerBooks/img5.jpeg');
+  background-size: cover; 
+}
+
+.banner .swiper-slide:nth-child(6n) {
+  background-image :url('src/assets/BannerBooks/img6.webp');
+  background-size: cover; 
+
+}
+
+.banner .swiper-slide:nth-child(7n) {
+  background-image :url('src/assets/BannerBooks/img7.webp');
+  background-size: cover; 
+
+
+}
+
+.banner .swiper-slide:nth-child(8n) {
+  background-image :url('src/assets/BannerBooks/img8.webp');
+  background-size: contain; 
+
+
+}
+
+.banner .swiper-slide:nth-child(9n) {
+  background-image :url('src/assets/BannerBooks/img9.jpg');
+  background-size: cover; 
+  background-position: center;
+}
+
+.banner .swiper-slide:nth-child(10n) {
+  background-image :url('src/assets/BannerBooks/img10.jpg');
+  background-size: cover; 
+  background-position: center;
+}
